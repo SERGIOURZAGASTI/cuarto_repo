@@ -1,0 +1,12 @@
+body{
+
+    background-color: lightblue;
+    
+}
+
+
+h1, li, tr{color: rgb(207, 46, 46);
+   font-family: 'Arial', Times, serif;
+   font-size: 7;
+   font-weight: bold;
+}
