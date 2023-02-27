@@ -5,8 +5,44 @@ body{
 }
 
 
-h1, li, tr{color: rgb(207, 46, 46);
+h1, li{color: green;
    font-family: 'Arial', Times, serif;
    font-size: 7;
-   font-weight: bold;
+   ;
 }
+
+table tr:nth-child(1) {
+font-size: xx-large;
+font-weight: bold;
+
+}
+
+
+table tr:nth-child(2) {
+    font-size: small;
+    font-style: italic;
+    
+    }
+
+    table td:nth-child(1) {
+        background-color: #ee8;
+      }
+
+      table td:nth-child(2) {
+        color: rgb(74, 14, 184);
+      }
+      table td:nth-child(3) {
+        color: rgb(136, 238, 149);
+      }
+      table td:nth-child(4) {
+        color: rgb(238, 136, 144);
+      }
+      table td:nth-child(5) {
+        color: rgb(211, 238, 136);
+      }
+      table td:nth-child(6) {
+        color: white;
+      }
+      table td:nth-child(7) {
+        color: blue;
+      }
